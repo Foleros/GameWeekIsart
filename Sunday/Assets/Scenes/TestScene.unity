@@ -245,6 +245,8 @@ MonoBehaviour:
   PlayerTwo: {fileID: 1160485183}
   OneHitZone: {fileID: 371637754}
   Arrow: {fileID: 601467184}
+  OneMaxHealth: 125
+  TwoMaxHealth: 75
 --- !u!4 &528139687
 Transform:
   m_ObjectHideFlags: 0
@@ -547,11 +549,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be71b51e23ca9ea4d9c7b7af8f160fc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 601467184}
-  velocity: {x: 100, y: 0}
-  canShoot: 1
-  offset: {x: 0.4, y: 0.1}
-  cooldown: 1
 --- !u!114 &1160485189
 MonoBehaviour:
   m_ObjectHideFlags: 0
